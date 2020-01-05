@@ -1,0 +1,34 @@
+@here *Tip* How to show the branch name in gnome terminal.
+
+1. Load `~/.bashrc` using nano editor.
+```
+sudo nano ~/.bashrc
+```
+
+2. Paste the following script at the bottom of `.bashrc`.
+```
+# Show git branch name
+force_color_prompt=yes
+color_prompt=yes
+parse_git_branch() {
+ git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
+if [ "$color_prompt" = yes ]; then
+ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[01;31m\]$(parse_git_branch)\[\033[00m\]\$ '
+else
+ PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w$(parse_git_branch)\$ '
+fi
+unset color_prompt force_color_prompt
+```
+
+Press `ctrl+x`, `y` and hit `Enter`
+
+3. Reload `.bashrc`.
+```
+source ~/.bashrc
+```
+
+4. Checkout to other branch.
+```
+git checkout [branchname]
+```
