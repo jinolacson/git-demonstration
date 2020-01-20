@@ -24,12 +24,15 @@ output : id_rsa  id_rsa.pub  known_hosts
 
 5. Paste your generated `id_rsa.pub` under.
 ```
-https://dev.perfectpitchtech.com/profile/keys
+https://[gitlab-hostname]/profile/keys
 ```
 
 and click `save`
 
 6. Clone with *ssh* `git@` over `https://`.
+
+example: 
+
 ```
 git clone git@dev.perfectpitchtech.com:boomcamp/handraiser.git
 ```
