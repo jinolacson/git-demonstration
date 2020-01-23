@@ -1,0 +1,1 @@
+![](config-git-template.gif)
