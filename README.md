@@ -8,19 +8,16 @@
 - [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
 
 
-
 <object data="presentations/Git Branch Modeling.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="presentations/Git Branch Modeling.pdf">
-        <p>Git Branch Modeling.pdf <a href="presentations/Git Branch Modeling.pdf">Download PDF</a>.</p>
+        <p><a href="presentations/Git Branch Modeling.pdf">[Git Branch Modeling.pdf]</a>.</p>
     </embed>
 </object>
 
 
-
-
 <object data="presentations/Git Branch Modeling.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="presentations/GIT COMMANDS.pdf">
-        <p>GIT COMMANDS.pdf <a href="presentations/GIT COMMANDS.pdf">Download PDF</a>.</p>
+        <p><a href="presentations/GIT COMMANDS.pdf">[GIT COMMANDS.pdf]</a>.</p>
     </embed>
 </object>
 
