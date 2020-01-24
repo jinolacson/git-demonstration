@@ -7,6 +7,11 @@
 
 - [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
 
+<object data="presentations/Git Branch Modeling.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="presentations/Git Branch Modeling.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="presentations/Git Branch Modeling.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
 
 
