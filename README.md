@@ -9,9 +9,7 @@ the state of a Git repo.
 In this short clip example i will delete `npm-debug.log` and undo the deleted
 file or any local changes using `git reset --hard HEAD`.
 
-Demo example
-
-<YoutubeEmbed link="https://www.youtube.com/embed/AQQy2meSMoo?rel=0" />
+[Demo example](https://www.youtube.com/embed/AQQy2meSMoo?rel=0)
 
 See also:
 
