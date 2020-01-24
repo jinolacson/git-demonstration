@@ -1,3 +1,16 @@
+# Git Flow
+
+- [Boom Camp - Git Flow](https://github.com/boomcamp/git-flow)
+
+
+### External Resources
+
+- [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
+
+
+
+
+
 # Advance Git commands
 
 > It covers most commonly used advance commands in git. 
