@@ -207,3 +207,19 @@ Syntax:
 See also:
 
 `git fetch --all`
+
+
+
+## 11. Integrating NONE existing remotes references using git fetch
+
+
+In this example im going to integrate the `feature_branch_4` branch into my working directory `~/jino/example-demo` after that ill checkout a local branch using `git checkout -b feature_branch_4` then `git fetch --all` to pull the remaining remote branches.
+
+
+[Demo example](https://youtu.be/caQsfbeyRPU) 
+
+Syntax for fetching single remote : `git fetch <remote_name> <branch_name>`
+
+Example: `git fetch https://github.com/jinolacson/example-repo feature_branch_4`
+
+Syntax for fetching the remote branches : `git fetch --all`
